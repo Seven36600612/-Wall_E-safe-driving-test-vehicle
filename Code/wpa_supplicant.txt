@@ -1,0 +1,16 @@
+country=CN
+ctrl_interface=DIR=/var/run/wpa_supplicant Group=netdev
+update_config=1
+network={
+ssid="Tangiphone"
+psk="20000728"
+key_mgmt=WPA-PSK
+priority=5
+}
+
+network={
+ssid="gcxlzx-101"
+psk="gcxlzx-101"
+key_mgmt=WPA-PSK
+priority=4
+}
